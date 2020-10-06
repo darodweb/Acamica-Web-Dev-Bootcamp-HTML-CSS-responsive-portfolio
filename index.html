@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Portfolio</title>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html">
+            <img src="./assets/Logo.png" class="logo" alt="logo">
+        </a>
+
+        <nav>
+            <ul class="nav-links">
+                <a href="#sobre-mi">
+                    <li>Sobre Mi</li>
+                </a>
+                <a href="#skills">
+                    <li>Skills & Tecnologias</li>
+                </a>
+                <a href="#contacto">
+                    <li>Contacto</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+            <h1 class="hero-title">Daniel Rodriguez</h1>
+            <h4 class="hero-description">Desarrollador Front-End</h4>
+            <a href="#sobre-mi" class="btn">Sobre Mi</a>
+        </div>
+    </section>
+
+    <section class="main">
+
+        <div class="row-1" id="sobre-mi">
+
+            <div class="col1-sobre-mi">
+                <h2 class="titles">Lo Que Hago</h2>
+                <p class="main-description">Diseño y desarrollo sitios web que convierten visitantes en clientes.</p>
+            </div>
+
+            <div class="col2-sobre-mi">
+                <lottie-player src="./assets/technologiesjson.json" background="transparent" speed="1"
+                    style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+            </div>
+
+        </div>
+
+        <div class="row-2" id="skills">
+            <lottie-player class="lplayer" src="./assets/webdesignjson.json" background="transparent" speed="1"
+                style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+
+            <div class="col2-skills">
+                <h2 class="titles tech">Tecnologias Que Uso</h2>
+                <p class="main-description description-tech">HTML, CSS, SASS, JS, Bootstrap</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="proyectos">
+        <h2 class="proyectos-title">Proyectos</h2>
+        <div class="proyectos-container">
+
+            <div class="proyectos-container-inner">
+                <!--Add Display grid (2 columns 1fr) to ".proyectos-container-inner" -->
+                <img class="proyectos-img" src="https://via.placeholder.com/514x342.png?text=Proyecto1"
+                    alt="placeholder">
+                <div class="proyectos-details">
+                    <h3>Titulo</h3>
+                    <p class="proyectos-main-description">lamcorper facilisis sapien ut imperdiet. Nulla neque turpis,
+                        imperdiet
+                        eget
+                        commodo sed metus.</p>
+                </div>
+
+                <img class="proyectos-img" src="https://via.placeholder.com/514x342.png?text=Proyecto2"
+                    alt="placeholder">
+                <div class="proyectos-details">
+                    <h3>Titulo</h3>
+                    <p class="proyectos-main-description">lamcorper facilisis sapien ut imperdiet. Nulla neque turpis,
+                        imperdiet
+                        eget
+                        commodo sed metus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="form-container" id="contacto">
+        <div>
+            <h1 class="titles">Contacto</h1>
+            <form action="#" method="GET" id="formulario" target="_blank" autocomplete="off">
+
+                <!-- <label for="name" >Nombre</label> -->
+                <input type="text" name="nombre" placeholder="Nombre" required>
+
+                <!-- <label for="email" >Email</label> -->
+                <input type="email" name="email" placeholder="Email" required>
+
+                <!-- <label for="telefono" >Teléfono</label> -->
+                <input type="tel" name="telefono" placeholder="Teléfono" size="15"><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <h3>DR 2020</h3>
+    </footer>
+</body>
+
+</html>

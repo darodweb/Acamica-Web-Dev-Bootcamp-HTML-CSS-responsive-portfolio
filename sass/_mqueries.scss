@@ -1,0 +1,156 @@
+@media screen and (min-width: 480px) {
+    .main {
+        // display: flex;
+        // flex-direction: row;
+        padding: 0 25px;
+    }
+
+   /*Lo Que Hago Section*/
+
+    .row-1 {
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+        padding: 15px 50px;
+    }
+
+    .col1-sobre-mi {
+        order:0;
+        width: 50%;
+    }
+
+    .col2-sobre-mi {
+        order:1;
+        width: 50%;
+    }
+
+    .row-2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 15px 50px;
+    }
+    
+
+    .lplayer {
+        order:0;
+        width:50%;
+        margin-left: 10rem;
+        margin-bottom: 2rem;
+    }
+
+    .col2-skills {
+        width: 50%;
+        order:1;
+        display:flex;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+    .tech, .titles{
+        margin-bottom: 0.5rem;
+    }
+
+    /*Seccion Proyectos*/
+
+    .proyectos {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+    }
+
+    .proyectos-container {
+        width: 75vw;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+    }
+
+    .proyectos-container-inner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 25px;
+        padding-bottom: 30px;
+
+    }
+
+    .proyectos-img {
+        margin-left:15px;
+        padding: 25px;
+    }
+    .proyectos-main-description {
+        font-size: 16px;
+    }
+
+    .form-container {
+        display: flex;
+        justify-content: center;
+        margin: 5rem 20rem;
+        padding: 3rem 0px;
+        border-radius: 5px;
+    }
+
+    input {
+        width: 30vw;
+    }
+    
+    /*Hero Section*/
+
+    .hero-container {
+        position: relative;
+        left: 15rem;
+    }
+
+    .hero-container {
+        position: relative;
+        width: 640px;
+        height: 310px;
+        background: rgba(255, 251, 251, 0.6);
+        border-radius: 10px;
+        left: 100px;
+    }
+
+    .hero-title {
+        font-family: $font-primary;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 92px;
+        text-align: center
+    }
+
+    .hero-description {
+        font-size: 45px;
+    }
+
+    .btn {
+        position: absolute;
+        top: 200px;
+        left: 180px;
+
+    }
+
+    .hero {
+        height: 100vh;
+        background-image: url('../assets/hero-large-bg_1900.jpg');
+        object-fit: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    /*Navigation and Header*/
+
+    .nav-links {
+        margin: .5rem 4rem 0 0;
+        font-size: 1.25rem;
+    }
+
+    nav ul li {
+        color: rgb(151, 151, 151);
+    }
+
+    .logo {
+        margin-left: 5rem;
+    }
+
+}

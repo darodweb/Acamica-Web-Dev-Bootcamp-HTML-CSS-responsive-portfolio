@@ -1,0 +1,54 @@
+.proyectos {
+    background: linear-gradient(180deg, #000000 0%, rgba(255, 255, 255, 0) 100%), rgba(13, 12, 12, 0.89);
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.proyectos-title {
+    margin: 0rem 0 1.5rem 0;
+    font-family: $font-primary;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5rem;
+    text-align: center;    
+    color: #FFFDFD;
+}
+
+.proyectos-container {
+    background: #FFFFFF;
+}
+
+.proyectos-container-inner {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+div h3, div p {
+    margin: 15px 25px;
+}
+
+div h3 {
+    font-family: $font-primary;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 59px;
+    text-align: center;
+    color: #000000;
+}
+
+.proyectos-main-description {
+    font-family: $font-primary;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 33px;
+    color: #5F5656;
+}
+
+.proyectos-img {
+    width: 100%;
+    margin-top: 20px; 
+}
+
